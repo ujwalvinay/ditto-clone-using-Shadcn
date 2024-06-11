@@ -1,18 +1,24 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a clone of the [Ditto Insurance](https://joinditto.in/) website created using  [Next.js](https://nextjs.org/) along with [Tailwinds CSS](https://tailwindcss.com/) and [ShadCN](https://ui.shadcn.com/)
+
+
+https://github.com/ujwalvinay/ditto-clone-using-Shadcn/assets/90175613/3f9711dc-6e44-49a7-bd77-1c7207a10127
+
 
 ## Getting Started
 
-First, run the development server:
+First, download the zip file
+Then, run the following code:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+# then
+npx shadcn-ui@latest init
+# add components from shadcn
+npx shadcn-ui@latest add navigation-menu 
+# and
+npx shadcn-ui@latest add button
 ```
+
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
@@ -25,9 +31,14 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 To learn more about Next.js, take a look at the following resources:
 
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+To learn more about Shad CN, take a look at the following resources:
+
+- [ShadCN Documentation](https://ui.shadcn.com/) - learn about ShadCN UI.
+
+To learn more about Tailwind CSS, take a look at the following resources:
+
+- [Tailwind CSS Documentation](https://tailwindcss.com/) - learn about CSS syling.
 
 ## Deploy on Vercel
 
